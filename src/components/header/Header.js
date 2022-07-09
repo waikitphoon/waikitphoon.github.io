@@ -9,6 +9,8 @@ import { style } from "glamor";
 
 function Header(props) {
   const theme = props.theme;
+  props.setTheme("dark");
+  localStorage.setItem("theme", "dark");
 
   const styles = style({
     cursor: "pointer",
@@ -100,9 +102,9 @@ function Header(props) {
                 Projects
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
+            {/* <button {...styles} onClick={changeTheme}>
               {icon}
-            </button>
+            </button> */}
           </ul>
         </header>
       </div>
