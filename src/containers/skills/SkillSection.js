@@ -23,11 +23,11 @@ function SkillSection(props) {
         if (index % 2 === 0) {
           return (
             <div className="skills-main-div">
-              <Fade left duration={2000}>
+              {/* <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
-              </Fade>
+              </Fade> */}
 
               <div className="skills-text-div">
                 <Fade right duration={1000}>
@@ -82,11 +82,11 @@ function SkillSection(props) {
                   </div>
                 </Fade>
               </div>
-              <Fade right duration={2000}>
+              {/* <Fade right duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
-              </Fade>
+              </Fade> */}
             </div>
           );
         }

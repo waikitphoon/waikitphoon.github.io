@@ -38,6 +38,12 @@ function Experience(props) {
               >
                 {experience["description"]}
               </p>
+              <p
+                className="experience-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {experience["description2"]}
+              </p>
             </div>
           </div>
         </Fade>

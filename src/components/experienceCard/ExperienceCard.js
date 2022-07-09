@@ -8,7 +8,6 @@ function ExperienceCard(props) {
     <div
       className="experience-card"
       style={{
-        border: `1px solid ${experience["color"]}`,
         backgroundColor: theme.imageDark,
       }}
     >

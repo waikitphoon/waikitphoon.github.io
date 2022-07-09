@@ -20,7 +20,6 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 
 .button-greeting-div {
@@ -43,6 +42,13 @@
 
 .greeting-text-p {
   font-size: 30px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-text-2 {
+  font-size: 5px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
