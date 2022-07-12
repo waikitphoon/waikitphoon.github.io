@@ -4,6 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Experience from "../pages/experience/Experience";
 import Projects from "../pages/projects/Projects";
+import Skills from "../pages/skills/Skills";
 import { settings } from "../portfolio.js";
 
 export default function Main(propss) {
@@ -34,10 +35,10 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path="/skills"
               exact
               render={(props) => (
-                <Experience
+                <Skills
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -45,9 +46,10 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path="/experience"
+              exact
               render={(props) => (
-                <Projects
+                <Experience
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -85,10 +87,10 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path="/skills"
               exact
               render={(props) => (
-                <Experience
+                <Skills
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -96,9 +98,10 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path="/experience"
+              exact
               render={(props) => (
-                <Projects
+                <Experience
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

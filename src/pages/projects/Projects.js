@@ -24,9 +24,6 @@ function Projects(props) {
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
-            <div className="projects-heading-img-div">
-              <ProjectsImg theme={theme} />
-            </div>
             <div className="projects-heading-text-div">
               <h1
                 className="projects-heading-text"
@@ -49,18 +46,6 @@ function Projects(props) {
           return <ProjectCard repo={repo} theme={theme} />;
         })}
       </div>
-      <br />
-      <br />
-      <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/harikanani"
-      >
-        More Projects (Github)
-      </a>
-      <br />
-      <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

@@ -26,19 +26,19 @@ export default function Greeting(props) {
                 {greeting.subtitle}
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p2 subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.subtitle2}
               </p>
+              <SocialMedia />
+              <div className="portfolio-repo-btn-div"></div>
               <p
-                className="greeting-text-p2"
+                className="greeting-text-p3"
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.qualification}
               </p>
-              <SocialMedia />
-              <div className="portfolio-repo-btn-div"></div>
             </div>
           </div>
           <div className="greeting-image-div">

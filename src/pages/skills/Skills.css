@@ -1,5 +1,5 @@
-.skills-main-div {
-  display: flex;
+.skills-main {
+  width: 100%;
 }
 
 .skills-header {
@@ -15,9 +15,10 @@
 
 .skills-text-div {
   margin-left: 50px;
-  margin-top: 3%;
-  padding-top: 80px;
+  margin-top: 1%;
+  padding-top: 1%;
   font-family: "Google Sans Regular";
+  padding-bottom: 20%;
 }
 
 .skills-main-div > * {
